@@ -1,0 +1,19 @@
+sudo: false
+dist: trusty
+language: bash
+branches:
+  only:
+  - master
+script:
+- bash build_deb.sh
+- ls
+before_deploy:
+- ls
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token:
+    secure: "E7Z3C7aBzZzdQD/THAKMnsnOJCgCPDAUMdTW1qAhJMa2zgZ0vtsP2NVlTBjhMp/N5MInFdcYSN1S8Cwrl/pyBAz7qu5UT/bCTW4+A9NXyodRl66ANUBxDvy5TMjJUrbi0tFFmpDu+/1ppxGK5aLH2G+xkpyIBmEbtT947VslFn94ZMjsLVP1LT0DmGvG70D/kCyBmujN7nwIRFQ3xCAfwYXNnpq5xc+s/o9d8wG+BJoIERdzWb8H0Sv8pHfgqrB9+SoIgb8p5AKHi2GvanIr+hn9TgO4dnPgFKgcMNFdOenp2H9Na9t/94oX9VEQm/N2XRXF/dzfMO/Bnbe8nP8gX2A8kWX61CA9XmMAG4bBsmEXDE8d5LExAh4OpJtHyiuVsgoM2IOFuomTfPSUFbPkqdfe1w4LuvAP78DtsedsUB6PaYvv13eZfHgZM2ISVZBel/EuqHXik1095US6myGjOt9coETYodU/6Z7Yhy5L3bePQoElCA15TyupVAgI9FA+20dwFUaXOwxm91xjLOvBaoSW4Xn0A3SIzueEj8eVBXi3Sl2xWNFaIFvsBETsteoG4hOJiwbUE1seqIeLa36F85+xlD5J9/l+/NtEHqmV2YfS02+MCzwc5h590gp+zELxxgpfntf6O4PjziaY6EgDVgRHc+lQINu1/1iHQZjCudM="
+  local_dir: "build/"
+  on:
+    branch: master
