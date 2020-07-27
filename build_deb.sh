@@ -16,5 +16,5 @@ cp ./LICENSE deb/DEBIAN/copyright
 # Build pkg
 rm -rf build/
 mkdir build/
-dpkg -b deb/ build/fcitx-skin.deb
+dpkg -b deb/ build/ithuan-fcitx-skin.deb
 

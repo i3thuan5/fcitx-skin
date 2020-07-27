@@ -1,5 +1,5 @@
-Package: fcitx-skin
-Source: fcitx-skin
+Package: ithuan-fcitx-skin
+Source: ithuan-fcitx-skin
 Section: utils
 Priority: optional
 Version: 0.1
