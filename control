@@ -1,0 +1,9 @@
+Package: fcitx-skin
+Source: fcitx-skin
+Section: utils
+Priority: optional
+Version: 0.1
+Architecture: all
+Maintainer: Tshua Bun-li <a8568730@gmail.com>
+Homepage: https://github.com/i3thuan5/fcitx-skin
+Description: fcitx skin config for I-thuan Tai-gi IME.
