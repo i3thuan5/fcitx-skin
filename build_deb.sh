@@ -9,7 +9,7 @@ mkdir -p deb/usr/share/fcitx/skin/
 # deb package related file
 cp ./control deb/DEBIAN/
 # taigi
-cp ./ithuan deb/usr/share/fcitx/skin/
+cp -r ./ithuan deb/usr/share/fcitx/skin/
 # copyright
 cp ./LICENSE deb/DEBIAN/copyright
 
