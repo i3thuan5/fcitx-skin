@@ -4,7 +4,8 @@ Section: utils
 Priority: optional
 Version: 0.1
 Architecture: all
+Depends: fcitx-ui-classic
 Conflicts: fcitx-ui-qimpanel
-Maintainer: Tshua Bun-li <a8568730@gmail.com>
+Maintainer: ÌTHUÂNKHOKI <ithuan@ithuan.tw>
 Homepage: https://github.com/i3thuan5/fcitx-skin
-Description: fcitx skin config for I-thuan Tai-gi IME.
+Description: Fcitx skin config for ÌTHUÂNKHOKI Taioanoe Input Method.
