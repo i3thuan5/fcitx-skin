@@ -4,6 +4,7 @@ Section: utils
 Priority: optional
 Version: 0.1
 Architecture: all
+Depends: fcitx-ui-classic
 Conflicts: fcitx-ui-qimpanel
 Maintainer: ÌTHUÂNKHOKI <ithuan@ithuan.tw>
 Homepage: https://github.com/i3thuan5/fcitx-skin
